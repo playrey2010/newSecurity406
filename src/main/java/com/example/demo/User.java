@@ -113,4 +113,10 @@ public class User {
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
+
+    // additional methods
+
+    public void clearPassword(){
+        this.password = "";
+    }
 }
